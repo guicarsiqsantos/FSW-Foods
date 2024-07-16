@@ -1,10 +1,14 @@
 import Header from "@/components/header";
+import Search from "@/components/search";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className="px-5 pt-6">
+        <Search />
+      </div>
+    </>
   );
 };
 
